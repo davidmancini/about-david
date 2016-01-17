@@ -8,21 +8,23 @@
 		<h1>Milestone One</h1>
 
 		<!--PURPOSE-->
-		<div class="sectionHead">Purpose</div>
+		<div class="sectionHead">Purpose, Audience, and Goal</div>
 		<div class="sectionBody">
-			Purpose Text
+			<p>Purpose: </p>
+			<p>Audience: </p>
+			<p>Goal: </p>
 		</div>
 
-		<!--AUDIENCE-->
-		<div class="sectionHead">Audience</div>
+		<!--PERSONA-->
+		<div class="sectionHead">Persona</div>
 		<div class="sectionBody">
-			Audience Text
+			Persona Text
 		</div>
 
-		<!--GOAL-->
-		<div class="sectionHead">Goal</div>
+		<!--USE CASE-->
+		<div class="sectionHead">Use Case</div>
 		<div class="sectionBody">
-			Goal Text
+			Use Case Text
 		</div>
 
 	</body>
