@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Milestone One</title>
+		<link rel="stylesheet" href="docstyle.css">
 	</head>
 	<body>
 		<h1>Milestone One</h1>
@@ -13,19 +14,19 @@
 			<p>Purpose: </p>
 			<p>Audience: </p>
 			<p>Goal: </p>
-		</div>
+		</div><br>
 
 		<!--PERSONA-->
 		<div class="sectionHead">Persona</div>
 		<div class="sectionBody">
-			Persona Text
-		</div>
+			<p>Persona Text</p>
+		</div><br>
 
 		<!--USE CASE-->
 		<div class="sectionHead">Use Case</div>
 		<div class="sectionBody">
-			Use Case Text
-		</div>
+			<p>Use Case Text</p>
+		</div><br>
 
 	</body>
 </html>

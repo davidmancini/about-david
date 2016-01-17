@@ -1,0 +1,34 @@
+/*****************************
+*CSS for Documentation of PWP*
+*****************************/
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #0047ab;
+	margin: 0;
+	padding: 0;
+}
+
+h1	{
+	text-align: center;
+	font-size: 1.8em;
+	color: white;
+}
+
+.sectionHead {
+	font-size: 1.2em;
+
+}
+
+.sectionBody {
+
+}
+
+/* Equal padding for sectionHead and sectionBody */
+.sectionHead,
+.sectionBody {
+	margin: 0 10%;
+	padding: 0 5%;
+	background-color: white;
+	border: 5px solid black;
+}
