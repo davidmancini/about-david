@@ -20,9 +20,9 @@ h1	{
 
 }
 
-.sectionBody {
+/*.sectionBody {
 
-}
+}*/
 
 /* Equal padding for sectionHead and sectionBody */
 .sectionHead,
@@ -35,4 +35,14 @@ h1	{
 
 .personaLabel {
 	font-family: "Courier New", Courier, monospace;
+}
+
+#personaQuote {
+	text-align: right;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.imageFloat {
+	float: left;
+	padding: 20px;
 }
