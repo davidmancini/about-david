@@ -33,11 +33,11 @@ h1	{
 	border: 5px solid black;
 }
 
-.personaLabel {
+.sectionLabel {
 	font-family: "Courier New", Courier, monospace;
 }
 
-#personaQuote {
+#quote {
 	text-align: right;
 	font-family: 'Shadows Into Light Two', cursive;
 }
@@ -45,4 +45,12 @@ h1	{
 .imageFloat {
 	float: left;
 	padding: 20px;
+}
+
+.footer {
+	margin: 0;
+	padding: 5%;
+	text-align: center;
+	color: white;
+	background-color: black;
 }
