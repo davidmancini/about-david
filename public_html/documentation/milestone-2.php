@@ -52,8 +52,8 @@
 			Desktop View<br>
 			<img src="images/wireframe-desktop.svg" alt="Desktop Wireframe">
 		</div><br>
-	</body>
 	<footer>
 		<div class="footer">Personal Webpage Project for<br>Deep Dive Coding Bootcamp<br>By David Mancini<br>2016</div>
 	</footer>
+	</body>
 </html>
