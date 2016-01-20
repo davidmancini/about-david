@@ -42,11 +42,16 @@
 			<img src="images/interaction-flow.svg" alt="Interaction Flow">
 		</div><br>
 
-		<!--WIREFRAME -->
-		<div class="sectionHead">Wireframe</div>
+		<!--WIREFRAMES -->
+		<div class="sectionHead">Wireframes</div>
 		<div class="sectionBody">
-
-		</div><<br>
+			Mobile View<br>
+			<img src="images/wireframe-mobile.svg" alt="Mobile Wireframe">
+		</div>
+		<div class="sectionBody">
+			Desktop View<br>
+			<img src="images/wireframe-desktop.svg" alt="Desktop Wireframe">
+		</div><br>
 	</body>
 	<footer>
 		<div class="footer">Personal Webpage Project for<br>Deep Dive Coding Bootcamp<br>By David Mancini<br>2016</div>
