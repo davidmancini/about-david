@@ -39,7 +39,7 @@
 		<!--INTERACTION FLOW -->
 		<div class="sectionHead">Interaction Flow</div>
 		<div class="sectionBody">
-
+			<img src="images/interaction-flow.svg" alt="Interaction Flow">
 		</div><br>
 
 		<!--WIREFRAME -->
