@@ -55,10 +55,10 @@
 				<li>I will contact her to begin the planning stages of her project.</li>
 			</ol>
 		</div><br><br>
-	</body>
 	<footer>
 		<div class="footer">
 			Personal Webpage Project for<br>Deep Dive Coding Bootcamp<br>By David Mancini<br>2016
 		</div>
 	</footer>
+	</body>
 </html>
