@@ -48,8 +48,30 @@ html {
 
 }
 
-/* SKILLS ROW */
+/* SKILLS */
 .skillsRow {
 
 }
 
+/* PROJECT */
+.projectsRow {
+
+}
+
+/* PRICING */
+.pricingfRow {
+
+}
+
+/* QUOTE */
+.projectsRow {
+
+}
+
+/* FOOTER */
+.footerRow {
+	background-color: #243958;
+	color: white;
+	margin: 40px 0 0;
+	padding: 20px;
+}

@@ -62,16 +62,44 @@
 				</div>
 			</div><!--Ends Photo & Intro-->
 
-			<div class="row skillsRow row-eq-height pull-middle text-middle"><!--Skills Row-->
+			<div class="row skillsRow row-eq-height text-center"><!--Skills Row-->
 				<div class="col-md-12">
-					Skills and logos
+					<h2>Skills</h2>
 				</div>
 			</div><!--Ends Skills Row-->
+
+			<div class="row projectsRow row-eq-height text-center"><!--Projects Row-->
+				<div class="col-md-12">
+					<h2>Projects</h2>
+				</div>
+			</div><!--Ends Projects Row-->
+
+			<div class="row pricingRow row-eq-height text-center"><!--Pricing Row-->
+				<div class="col-md-12">
+					<h2>Pricing</h2>
+				</div>
+			</div><!--Ends Pricing Row-->
+
+			<div class="row quoteRow row-eq-height text-center"><!--Quote Row-->
+				<div class="col-md-12">
+					<h2>Get a Quote and Contact Me</h2>
+				</div>
+			</div><!--Ends Quotes Row-->
 
 
 
 
 		</div><!--Ends content container-->
+
+		<footer>
+			<div class="container-fluid"><!--Footer container-->
+				<div class="row footerRow"><!--Footer row-->
+					<div class="col-md-12">
+						Copyright!
+					</div>
+				</div><!--Ends footer row-->
+			</div><!--Ends footer container-->
+		</footer>
 
 
 
