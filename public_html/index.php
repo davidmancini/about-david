@@ -57,7 +57,8 @@
 					<img src="images/headshot.jpg" alt="David Mancini" class="img-responsive">
 				</div>
 				<div class="col-md-7">
-					<p>Hello, my name is David Mancini, and I am a nerd.  I've always been into computers--I began making my own websites when I was 13 years old.  On my own, and through some intense coursework, I am now here to help you.</p>
+					<h2>Hello,</h2>
+					<p>I'm David Mancini, and I am a nerd.  I've always been into computers--I began making my own websites when I was 13 years old.  On my own, and through some intense coursework, I've gained the skills and experience to help you create a great-looking website or a powerful web app.</p>
 					<p>Just so you think I'm not the bad kind of nerd, you should know that I gained a lot of non-tech experience throughout the years, too; I'm a Paramedic and a Registered Nurse.</p>
 				</div>
 			</div><!--Ends Photo & Intro-->
@@ -94,8 +95,12 @@
 		<footer>
 			<div class="container-fluid"><!--Footer container-->
 				<div class="row footerRow"><!--Footer row-->
-					<div class="col-md-12">
-						Copyright!
+					<div class="col-md-6">
+						This site was created (by hand) by David Mancini<br>
+						Copyright © 2016
+					</div>
+					<div class="col-md-6 text-right">
+						Let's chat: mancini.david@gmail.com
 					</div>
 				</div><!--Ends footer row-->
 			</div><!--Ends footer container-->

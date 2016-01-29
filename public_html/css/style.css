@@ -9,17 +9,15 @@
 /* GLOBAL */
 body,
 html {
-	margin: 0;
-	padding: 0;
 	background-color: dodgerblue;
 }
 
-.row-eq-height {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-}
+/*.row-eq-height {*/
+	/*display: -webkit-box;*/
+	/*display: -webkit-flex;*/
+	/*display: -ms-flexbox;*/
+	/*display: flex;*/
+/*}*/
 
 /* HEADER */
 .headerRow {
@@ -72,6 +70,6 @@ html {
 .footerRow {
 	background-color: #243958;
 	color: white;
-	margin: 40px 0 0;
-	padding: 20px;
+	margin-top: 40px;
+	padding: 20px 0;
 }
