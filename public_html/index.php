@@ -29,6 +29,9 @@
 			<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 			<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<!-- END BOOTSTRAP TAGS-->
+		<!--Font Awesome-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
@@ -125,7 +128,9 @@
 						Copyright © 2016
 					</div>
 					<div class="col-md-6 text-right">
-						Let's chat: mancini.david@gmail.com
+						<a href="https://twitter.com/vizavord" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+						<a href="https://www.linkedin.com/in/david-mancini-b4854776"><i class="fa fa-linkedin fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+						<a href="https://github.com/davidmancini"><i class="fa fa-github fa-lg"></i></a>
 					</div>
 				</div><!--Ends footer row-->
 			</div><!--Ends footer container-->

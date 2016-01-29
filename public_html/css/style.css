@@ -36,7 +36,7 @@ html {
 
 /* CONTENT CONTAINER */
 .contentContainer {
-	margin: 0 40px;
+	margin: 0 10%;
 	padding: 20px;
 	background-color: white;
 }
@@ -71,5 +71,5 @@ html {
 	background-color: #243958;
 	color: white;
 	margin-top: 40px;
-	padding: 20px 0;
+	padding: 20px;
 }
