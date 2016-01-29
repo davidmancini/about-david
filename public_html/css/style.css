@@ -1,0 +1,55 @@
+/**************************************************
+ *
+ * CSS for David Mancini's Personal Webpage
+ *
+ * @author David Mancini <mancini.david@gmail.com>
+ *
+ **************************************************/
+
+/* GLOBAL */
+body,
+html {
+	margin: 0;
+	padding: 0;
+	background-color: dodgerblue;
+}
+
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+/* HEADER */
+.headerRow {
+	background-color: #243958;
+	color: white;
+}
+
+.headerTitle {
+
+}
+
+.btn-primary {
+	background: #3b81df;
+	color: #ffffff;
+}
+
+/* CONTENT CONTAINER */
+.contentContainer {
+	margin: 0 40px;
+	padding: 20px;
+	background-color: white;
+}
+
+/* INTRO & BIO */
+.introRow {
+
+}
+
+/* SKILLS ROW */
+.skillsRow {
+
+}
+
