@@ -29,9 +29,14 @@
 			<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 			<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<!-- END BOOTSTRAP TAGS-->
+
 		<!--Font Awesome-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+		<!--Google Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Rock+Salt|Didact+Gothic|Raleway' rel='stylesheet' type='text/css'>
+
+		<!--Custom Stylesheet-->
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 

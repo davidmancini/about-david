@@ -10,6 +10,11 @@
 body,
 html {
 	background-color: dodgerblue;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Didact Gothic', sans-serif;
 }
 
 /*.row-eq-height {*/
@@ -26,7 +31,9 @@ html {
 }
 
 .headerTitle {
-
+	font-family: 'Rock Salt', cursive;
+	font-size: 1.8em;
+	padding-top: 10px;
 }
 
 .btn-primary {
