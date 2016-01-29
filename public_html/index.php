@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="UTF-8">
 		<title>David Mancini</title>
@@ -77,13 +77,38 @@
 
 			<div class="row pricingRow row-eq-height text-center"><!--Pricing Row-->
 				<div class="col-md-12">
-					<h2>Pricing</h2>
+					<a name="pricing"></a><h2>Pricing</h2>
 				</div>
 			</div><!--Ends Pricing Row-->
 
-			<div class="row quoteRow row-eq-height text-center"><!--Quote Row-->
+			<div class="row quoteRow row-eq-height"><!--Quote Row-->
 				<div class="col-md-12">
-					<h2>Get a Quote and Contact Me</h2>
+					<a name="quote"></a><h2 class="text-center">Get a Quote and Contact Me</h2>
+
+					<form>
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name" placeholder="Name">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<label for="phone">Phone</label>
+							<input type="tel" class="form-control" id="phone" placeholder="Phone">
+						</div>
+						<div class="form-group">
+							<label for="website">Current Website</label>
+							<input type="text" class="form-control" id="website" placeholder="Current Website">
+						</div>
+						<div class="form-group">
+							<label for="text">How Can I Help You?</label>
+							<textarea class="form-control" id="text" placeholder="I need a website and a web app built." rows="3"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Send</button>
+					</form>
+					
 				</div>
 			</div><!--Ends Quotes Row-->
 
