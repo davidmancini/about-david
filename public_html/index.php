@@ -97,26 +97,26 @@
 
 					<form>
 						<div class="form-group">
-							<label for="name">Name</label>
+							<label for="name" class="textBackgroundBlack">Name</label>
 							<input type="text" class="form-control" id="name" placeholder="Name">
 						</div>
 						<div class="form-group">
-							<label for="email">Email</label>
+							<label for="email" class="textBackgroundBlack">Email</label>
 							<input type="email" class="form-control" id="email" placeholder="Email">
 						</div>
 						<div class="form-group">
-							<label for="phone">Phone</label>
+							<label for="phone" class="textBackgroundBlack">Phone</label>
 							<input type="tel" class="form-control" id="phone" placeholder="Phone">
 						</div>
 						<div class="form-group">
-							<label for="website">Current Website</label>
+							<label for="website" class="textBackgroundBlack">Current Website</label>
 							<input type="text" class="form-control" id="website" placeholder="Current Website">
 						</div>
 						<div class="form-group">
-							<label for="text">How Can I Help You?</label>
+							<label for="text" class="textBackgroundBlack">How Can I Help You?</label>
 							<textarea class="form-control" id="text" placeholder="I need a website and a web app built." rows="3"></textarea>
 						</div>
-						<button type="submit" class="btn btn-primary">Send</button>
+						<button type="submit" class="btn btn-primary">Send</button><br><br>
 					</form>
 					
 				</div>
