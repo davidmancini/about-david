@@ -81,6 +81,7 @@
 			<div class="row projectsRow row-eq-height text-center"><!--Projects Row-->
 				<div class="col-md-12">
 					<h2>Projects</h2>
+					
 				</div>
 			</div><!--Ends Projects Row-->
 
@@ -92,7 +93,7 @@
 
 			<div class="row quoteRow row-eq-height"><!--Quote Row-->
 				<div class="col-md-12">
-					<a name="quote"></a><h2 class="text-center">Get a Quote and Contact Me</h2>
+					<a name="quote"></a><h2 class="text-center"><span class="textBackgroundBlack">Get a Quote and Contact Me</span></h2>
 
 					<form>
 						<div class="form-group">
