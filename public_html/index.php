@@ -90,7 +90,8 @@
 
 			<div class="row pricingRow row-eq-height text-center"><!--Pricing Row-->
 				<div class="col-md-12">
-					<a name="pricing"></a><h2>Pricing</h2>
+					<a name="pricing"></a><h2>Website Pricing</h2>
+					Custom pricing is available for custom web apps.  <a href="#quote">Get a quote below.</a>
 				</div>
 				<div class="col-md-4">
 					<div class="priceBoxHeading priceBoxBasic" id="priceBoxBasic">
