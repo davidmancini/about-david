@@ -90,18 +90,21 @@
 					<a name="pricing"></a><h2>Pricing</h2>
 				</div>
 				<div class="col-md-4">
-					<div class="priceBox">
-						Basic
+					<div class="priceBoxHeading priceBoxBasic" id="priceBoxBasic">
+						<span class="priceHeading">Basic<br>$50</span>
+					</div>
+					<div class="priceBoxContent">
+						Content
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="priceBox">
-						Popular
+					<div class="priceBoxHeading" id="priceBoxPopular">
+						<span class="priceHeading">Popular<br>$100</span>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="priceBox">
-						Premium
+					<div class="priceBoxHeading" id="priceBoxPremium">
+						<span class="priceHeading">Premium<br>$150</span>
 					</div>
 				</div>
 			</div><!--Ends Pricing Row-->

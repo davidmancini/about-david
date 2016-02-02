@@ -68,8 +68,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* PRICING */
-.pricingfRow {
+.pricingRow {
 
+}
+
+.priceBoxHeading {
+	color: white;
+	font-size: 1.4em;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.priceBoxContent {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: aliceblue;
+	margin-bottom: 20px;
+}
+
+#priceBoxBasic {
+	background-color: dodgerblue;
+}
+
+#priceBoxPopular {
+	background-color: coral;
+}
+
+#priceBoxPremium {
+	background-color: goldenrod;
 }
 
 /* QUOTE */
