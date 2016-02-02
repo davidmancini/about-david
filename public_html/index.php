@@ -145,9 +145,24 @@
 					</div>
 				</div>
 			</div><!--Ends Pricing Row-->
-			<div class="row pricingRow row-eq-height"><!--Pricing Features Row-->
-				<div class="col-md-12">
 
+			<div class="row pricingFeaturesRow row-eq-height"><!--Pricing Features Row-->
+				<h3 class="text-center">Sample Add-On Features</h3>
+				<div class="col-md-6 text-right">
+					<i class="fa fa-plus"></i> Logo Design<br>
+					<i class="fa fa-plus"></i> Photo Slideshow<br>
+					<i class="fa fa-plus"></i> Social Media Feeds<br>
+					<i class="fa fa-plus"></i> Google Maps Integration<br>
+					<i class="fa fa-plus"></i> Blog System<br>
+					<i class="fa fa-plus"></i> Shopping Cart<br>
+				</div>
+				<div class="col-md-6">
+					<i class="fa fa-plus"></i> Accept Credit Cards<br>
+					<i class="fa fa-plus"></i> Event Registration<br>
+					<i class="fa fa-plus"></i> Customer Surveys<br>
+					<i class="fa fa-plus"></i> Audio/Video Integration<br>
+					<i class="fa fa-plus"></i> Custom Database Functions<br>
+					<i class="fa fa-plus"></i> ...Many Others Available<br>
 				</div>
 			</div><!--Ends Pricing Features Row-->
 
