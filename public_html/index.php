@@ -89,6 +89,21 @@
 				<div class="col-md-12">
 					<a name="pricing"></a><h2>Pricing</h2>
 				</div>
+				<div class="col-md-4">
+					<div class="priceBox">
+						Basic
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="priceBox">
+						Popular
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="priceBox">
+						Premium
+					</div>
+				</div>
 			</div><!--Ends Pricing Row-->
 
 			<div class="row quoteRow row-eq-height"><!--Quote Row-->
