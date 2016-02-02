@@ -36,6 +36,9 @@
 		<!--Google Fonts-->
 		<link href='https://fonts.googleapis.com/css?family=Rock+Salt|Didact+Gothic|Raleway' rel='stylesheet' type='text/css'>
 
+		<!--Font Awesome-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 		<!--Custom Stylesheet-->
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -94,17 +97,50 @@
 						<span class="priceHeading">Basic<br>$50</span>
 					</div>
 					<div class="priceBoxContent">
-						Content
+						<table class="table table-striped">
+							<tr><td><i class="fa fa-check"></i> Responsive Design</td></tr>
+							<tr><td><i class="fa fa-check"></i> Mobile Friendly</td></tr>
+							<tr><td><i class="fa fa-check"></i> Custom Domain Name</td></tr>
+							<tr><td><i class="fa fa-check"></i> 1 Year Free Hosting</td></tr>
+							<tr><td><i class="fa fa-check"></i> 2 Domain Email Addresses</td></tr>
+							<tr><td><i class="fa fa-check"></i> Up to 5 Pages</td></tr>
+							<tr><td><i class="fa fa-times"></i> Premium Wordpress Theme</td></tr>
+							<tr><td><i class="fa fa-times"></i> Search Engine Optimization Marketing</td></tr>
+						</table>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="priceBoxHeading" id="priceBoxPopular">
 						<span class="priceHeading">Popular<br>$100</span>
 					</div>
+					<div class="priceBoxContent">
+						<table class="table table-striped">
+							<tr><td><i class="fa fa-check"></i> Responsive Design</td></tr>
+							<tr><td><i class="fa fa-check"></i> Mobile Friendly</td></tr>
+							<tr><td><i class="fa fa-check"></i> Custom Domain Name</td></tr>
+							<tr><td><i class="fa fa-check"></i> 1 Year Free Hosting</td></tr>
+							<tr><td><i class="fa fa-check"></i> 5 Domain Email Addresses</td></tr>
+							<tr><td><i class="fa fa-check"></i> Up to 10 Pages</td></tr>
+							<tr><td><i class="fa fa-check"></i> Premium Wordpress Theme</td></tr>
+							<tr><td><i class="fa fa-times"></i> Search Engine Optimization Marketing</td></tr>
+						</table>
+					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="priceBoxHeading" id="priceBoxPremium">
 						<span class="priceHeading">Premium<br>$150</span>
+					</div>
+					<div class="priceBoxContent">
+						<table class="table table-striped">
+							<tr><td><i class="fa fa-check"></i> Responsive Design</td></tr>
+							<tr><td><i class="fa fa-check"></i> Mobile Friendly</td></tr>
+							<tr><td><i class="fa fa-check"></i> Custom Domain Name</td></tr>
+							<tr><td><i class="fa fa-check"></i> 1 Year Free Hosting</td></tr>
+							<tr><td><i class="fa fa-check"></i> Unlimited Domain Email Addresses</td></tr>
+							<tr><td><i class="fa fa-check"></i> Up to 20 Pages</td></tr>
+							<tr><td><i class="fa fa-check"></i> Premium Wordpress Theme</td></tr>
+							<tr><td><i class="fa fa-check"></i> Search Engine Optimization Marketing</td></tr>
+						</table>
 					</div>
 				</div>
 			</div><!--Ends Pricing Row-->

@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom-right-radius: 10px;
 	background-color: aliceblue;
 	margin-bottom: 20px;
+	text-align: left;
 }
 
 #priceBoxBasic {
@@ -96,6 +97,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #priceBoxPremium {
 	background-color: goldenrod;
+}
+
+.fa-check {
+	color: darkgreen;
+}
+
+.fa-times {
+	color: red;
 }
 
 /* QUOTE */
