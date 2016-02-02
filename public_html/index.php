@@ -145,6 +145,11 @@
 					</div>
 				</div>
 			</div><!--Ends Pricing Row-->
+			<div class="row pricingRow row-eq-height"><!--Pricing Features Row-->
+				<div class="col-md-12">
+
+				</div>
+			</div><!--Ends Pricing Features Row-->
 
 			<div class="row quoteRow row-eq-height"><!--Quote Row-->
 				<div class="col-md-12">
