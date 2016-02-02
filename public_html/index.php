@@ -95,7 +95,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="priceBoxHeading priceBoxBasic" id="priceBoxBasic">
-						<span class="priceHeading">Basic<br>$50</span>
+						<span class="priceHeading">Basic<br>$1221</span>
 					</div>
 					<div class="priceBoxContent">
 						<table class="table table-striped">
@@ -112,7 +112,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="priceBoxHeading" id="priceBoxPopular">
-						<span class="priceHeading">Popular<br>$100</span>
+						<span class="priceHeading">Popular<br>$1551</span>
 					</div>
 					<div class="priceBoxContent">
 						<table class="table table-striped">
@@ -129,7 +129,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="priceBoxHeading" id="priceBoxPremium">
-						<span class="priceHeading">Premium<br>$150</span>
+						<span class="priceHeading">Premium<br>$1881</span>
 					</div>
 					<div class="priceBoxContent">
 						<table class="table table-striped">
