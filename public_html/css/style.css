@@ -87,16 +87,22 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: left;
 }
 
-#priceBoxBasic {
+#priceBoxBasic,
+#priceBoxButtonBasic {
 	background-color: dodgerblue;
+	border: 0;
 }
 
-#priceBoxPopular {
+#priceBoxPopular,
+#priceBoxButtonPopular {
 	background-color: coral;
+	border: 0;
 }
 
-#priceBoxPremium {
+#priceBoxPremium,
+#priceBoxButtonPremium {
 	background-color: goldenrod;
+	border: 0;
 }
 
 .fa-check {

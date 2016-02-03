@@ -108,6 +108,7 @@
 							<tr><td><i class="fa fa-times"></i> Premium Wordpress Theme</td></tr>
 							<tr><td><i class="fa fa-times"></i> Search Engine Optimization Marketing</td></tr>
 						</table>
+						<div class="text-center"><a class="btn btn-primary" id="priceBoxButtonBasic" href="#" role="button">Get Started!</a></div>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -125,6 +126,7 @@
 							<tr><td><i class="fa fa-check"></i> Premium Wordpress Theme</td></tr>
 							<tr><td><i class="fa fa-times"></i> Search Engine Optimization Marketing</td></tr>
 						</table>
+						<div class="text-center"><a class="btn btn-primary" id="priceBoxButtonPopular" href="#" role="button">Get Started!</a></div>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -142,6 +144,7 @@
 							<tr><td><i class="fa fa-check"></i> Premium Wordpress Theme</td></tr>
 							<tr><td><i class="fa fa-check"></i> Search Engine Optimization Marketing</td></tr>
 						</table>
+						<div class="text-center"><a class="btn btn-primary text-center" id="priceBoxButtonPremium" href="#" role="button">Get Started!</a></div>
 					</div>
 				</div>
 			</div><!--Ends Pricing Row-->
@@ -168,7 +171,7 @@
 
 			<div class="row quoteRow row-eq-height"><!--Quote Row-->
 				<div class="col-md-12">
-					<a name="quote"></a><h2 class="text-center"><span class="textBackgroundBlack">Get a Quote and Contact Me</span></h2>
+					<a name="quote"></a><h2 class="text-center"><span class="textBackgroundBlack">Get a Custom Quote</span></h2>
 
 					<form>
 						<div class="form-group">
