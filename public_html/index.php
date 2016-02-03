@@ -48,7 +48,7 @@
 		<div class="container-fluid"><!--Header container-->
 			<div class="row headerRow row-eq-height"><!--Header-->
 				<div class="col-md-4">
-					<img src="images/logo.jpg" alt="Logo" class="img-responsive">
+					<img src="images/dm-logo.png" alt="Logo" class="img-responsive">
 				</div>
 				<div class="col-md-4">
 					<p class="text-center headerTitle">David Mancini</p>
