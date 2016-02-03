@@ -48,7 +48,7 @@
 		<div class="container-fluid"><!--Header container-->
 			<div class="row headerRow row-eq-height"><!--Header-->
 				<div class="col-md-4">
-					<img src="images/dm-logo.png" alt="Logo" class="img-responsive">
+					<img src="images/dm-logo.png" alt="David Mancini's Logo" class="img-responsive">
 				</div>
 				<div class="col-md-4">
 					<p class="text-center headerTitle">David Mancini</p>
@@ -208,11 +208,14 @@
 		<footer>
 			<div class="container-fluid"><!--Footer container-->
 				<div class="row footerRow"><!--Footer row-->
-					<div class="col-md-6">
+					<div class="col-md-4">
 						This site was created (by hand) by David Mancini<br>
 						Copyright © 2016
 					</div>
-					<div class="col-md-6 text-right">
+					<div class="col-md-4">
+						<img src="images/dm-logo.png" class="center-block" alt="David Mancini's Logo">
+					</div>
+					<div class="col-md-4 text-right">
 						<a href="https://twitter.com/vizavord" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
 						<a href="https://www.linkedin.com/in/david-mancini-b4854776"><i class="fa fa-linkedin fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
 						<a href="https://github.com/davidmancini"><i class="fa fa-github fa-lg"></i></a>
