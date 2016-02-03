@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<!-- Hello, fellow nerd.  If you're here, I assume you wanted to
+		make sure I actually coded this by hand.  I assure you I did.
+		Once you're done taking a look, let me know what you think.
+		I'm interested in your opinions.
+
+		Also, if you want to hire me...that would be great, too.
+		I'm looking for freelance work and I am also interested in
+		working for a web development company.
+
+		Contact me: hello@davidmancini.xyz  Thanks!-->
+
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="UTF-8">
