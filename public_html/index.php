@@ -183,7 +183,7 @@
 			</div><!--Ends Pricing Features Row-->
 
 			<div class="row quoteRow row-eq-height"><!--Quote Row-->
-				<div class="col-md-12">
+				<div class="col-md-8">
 					<a name="quote"></a><h2 class="text-center"><span class="textBackgroundBlack">Get a Custom Quote</span></h2>
 
 					<form>
@@ -210,6 +210,9 @@
 						<button type="submit" class="btn btn-primary">Send</button><br><br>
 					</form>
 					
+				</div>
+				<div class="col-md-4" id="twitter">
+					<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/Vizavord" data-widget-id="695297296930512896">Tweets by @Vizavord</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</div>
 			</div><!--Ends Quotes Row-->
 

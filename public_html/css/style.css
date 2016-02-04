@@ -47,7 +47,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* CONTENT CONTAINER */
 .contentContainer {
-	margin: 0 10%;
 	padding: 20px;
 	background-color: white;
 }
@@ -123,16 +122,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* QUOTE */
 .quoteRow {
-	background-image: url("../images/bg-code.jpg");
+	/*background-image: url("../images/bg-code.jpg");*/
 }
 
 .quoteRow > body html h2 form {
 	color: white;
 }
 
-.textBackgroundBlack {
-	background-color: black;
-	color: white;
+/*.textBackgroundBlack {*/
+	/*background-color: black;*/
+	/*color: white;*/
+/*}*/
+
+div#twitter {
+	margin-top:80px;
 }
 
 /* FOOTER */
