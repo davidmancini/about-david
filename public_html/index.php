@@ -83,7 +83,8 @@
 				<div class="col-md-7">
 					<h2>Hello,</h2>
 					<p>I'm David Mancini, and I am a nerd.  I've always been into computers--I began making my own websites when I was 13 years old.  On my own, and through some intense coursework, I've gained the skills and experience to help you create a great-looking website or a powerful web app.</p>
-					<p>Just so you think I'm not the bad kind of nerd, you should know that I gained a lot of non-tech experience throughout the years, too; I'm a Paramedic and a Registered Nurse.</p>
+					<p>Just so you think I'm not the <em>bad</em> kind of nerd, you should know that I gained a lot of non-tech experience throughout the years, too; I'm a Paramedic and a Registered Nurse.</p>
+					<p>I live and work in San Antonio, TX, but I'd be happy to work with anyone worldwide.</p>
 				</div>
 			</div><!--Ends Photo & Intro-->
 
@@ -142,7 +143,7 @@
 							<tr><td><i class="fa fa-times"></i> Premium Wordpress Theme</td></tr>
 							<tr><td><i class="fa fa-times"></i> Search Engine Optimization Marketing</td></tr>
 						</table>
-						<div class="text-center"><a class="btn btn-primary" id="priceBoxButtonBasic" href="#" role="button">Get Started!</a></div>
+						<div class="text-center"><a class="btn btn-primary" id="priceBoxButtonBasic" href="#" role="button">Get Started!</a></div><br>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -160,7 +161,7 @@
 							<tr><td><i class="fa fa-check"></i> Premium Wordpress Theme</td></tr>
 							<tr><td><i class="fa fa-times"></i> Search Engine Optimization Marketing</td></tr>
 						</table>
-						<div class="text-center"><a class="btn btn-primary" id="priceBoxButtonPopular" href="#" role="button">Get Started!</a></div>
+						<div class="text-center"><a class="btn btn-primary" id="priceBoxButtonPopular" href="#" role="button">Get Started!</a></div><br>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -178,7 +179,7 @@
 							<tr><td><i class="fa fa-check"></i> Premium Wordpress Theme</td></tr>
 							<tr><td><i class="fa fa-check"></i> Search Engine Optimization Marketing</td></tr>
 						</table>
-						<div class="text-center"><a class="btn btn-primary text-center" id="priceBoxButtonPremium" href="#" role="button">Get Started!</a></div>
+						<div class="text-center"><a class="btn btn-primary text-center" id="priceBoxButtonPremium" href="#" role="button">Get Started!</a></div><br>
 					</div>
 				</div>
 			</div><!--Ends Pricing Row-->
@@ -241,11 +242,14 @@
 			<div class="container-fluid"><!--Footer container-->
 				<div class="row footerRow"><!--Footer row-->
 					<div class="col-md-4">
-						This site was created (by hand) by David Mancini<br>
-						Copyright © 2016
+
 					</div>
-					<div class="col-md-4">
-						<img src="images/dm-logo.png" class="center-block" alt="David Mancini's Logo">
+					<div class="col-md-4 text-center">
+						<img src="images/dm-logo.png" class="center-block" alt="David Mancini's Logo"><br>
+						<p class="transparent">
+							Copyright © 2016<br>
+							This site was created (by hand) by David Mancini<br>
+						</p>
 					</div>
 					<div class="col-md-4 text-right">
 						<a href="https://twitter.com/vizavord" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
