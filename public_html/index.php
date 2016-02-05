@@ -114,10 +114,10 @@
 				</div>
 				<div class="col-md-4">
 					<div class="project">
-						<a href="#" target="_blank"><img src="images/placeholder.png" alt="Placeholder Image" class="img-responsive img-rounded"></a><br>
-						<h3>Project</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur cum ex facere id incidunt, ipsam nam quidem ratione, rem repellat voluptate? Aperiam dolore facilis in ipsum itaque laboriosam praesentium.
-							<br><a href="//ecocleantexas.com" target="_blank">ecocleantexas.com</a></p>
+						<a href="//barbiesinboerne.com" target="_blank"><img src="images/project-barbie.png" alt="Barbie's Website" class="img-responsive img-rounded"></a><br>
+						<h3>Barbie's Salon & Spa</h3>
+						<p>This client requested a clean and crisp website to attract clients and manage their appointments.  After the website went live, she told me that she now couldn't imagine managing her salon without it.
+							<br><a href="//barbiesinboerne.com" target="_blank">barbiesinboerne.com</a></p>
 					</div>
 				</div>
 			</div><!--Ends Projects Row-->
