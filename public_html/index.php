@@ -94,26 +94,38 @@
 				<p>I create fully responsive, mobile-friendly websites using the latest and most up-to-date technology,<br> including HTML5, CSS3, AngularJS, Bootstrap, MySQL, PHP7, and Wordpress.</p>
 				</div><!--Ends Skills Row-->
 
+
+
+			<h2>Project Portfolio</h2><br><p>More projects available upon request.</p>
+
 			<div class="row projectsRow row-eq-height text-center"><!--Projects Row-->
-				<div class="col-md-12">
-					<h2>Project Portfolio</h2><br><p>More projects available upon request.</p>
-				<div class="col-md-4 projectsImage">
-					<a href="//satraining.net" target="_blank"><img src="images/project-stayin-alive.jpg" alt="Stayin' Alive Training Services Website" class="img-responsive"></a><br>
+
+
+				<div class="col-md-4 project">
+					<a href="//satraining.net" target="_blank"><img src="images/project-stayin-alive.png" alt="Stayin' Alive Training Services Website" class="img-responsive img-rounded"></a><br>
 					<h3>Stayin' Alive Training Services</h3>
-					<p>Stayin' Alive's website utilizes a custom Wordpress theme.  It showcases their available courses and allows visitors to schedule and pay for classes online.  It also displays a blog and manages every aspect of daily business.<br>
-						<a href="//satraining.net" target="_blank">satraining.net</a></p>
+					<p>Stayin' Alive's website utilizes a custom Wordpress theme.  It showcases their available courses and allows visitors to schedule and pay for classes online.  It also displays a blog and manages every aspect of daily business.
+					<br><a href="//satraining.net" target="_blank">satraining.net</a></p>
 				</div>
-					<div class="col-md-4 projectsImage">
-						<img src="images/placeholder.png" alt="Placeholder Image" class="img-responsive"><br>
-						<h3>Project Name 2</h3><p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cumque nesciunt quae recusandae totam. Accusamus cum dolorem, ea error illum incidunt magni necessitatibus perferendis ullam. Aliquid deserunt enim eveniet quia.
-							Project text about the project that is information.  This website it obviously the best.</p>
+
+
+					<div class="col-md-4 project">
+						<a href="//ecocleantexas.com" target="_blank"><img src="images/project-ecoclean.png" alt="EcoClean Carpet Care Website" class="img-responsive img-rounded"></a><br>
+						<h3>EcoClean Carpet Care</h3>
+						<p>For this project, I travelled with a service tech to take photos for the website.  I met with the owner to build a website that he uses to attract new clients and to manage their appointments.  This website uses a non-premium theme that can be upgraded should the owner choose to do so.
+						<br><a href="//ecocleantexas.com" target="_blank">ecocleantexas.com</a></p>
 					</div>
-					<div class="col-md-4 projectsImage">
-						<img src="images/placeholder.png" alt="Placeholder Image" class="img-responsive"><br>
-						<h3>Project Name 3</h3><p>Project text about the project that is information.  This website it obviously the best.</p>
+
+
+					<div class="col-md-4 project">
+						<a href="#" target="_blank"><img src="images/placeholder.png" alt="Placeholder Image" class="img-responsive img-rounded"></a><br>
+						<h3>Project Name 3</h3><p>Project text about the project that is information.  This website it obviously the best.
+						<br><a href="#" target="_blank">example.com</a></p>
 					</div>
-				</div>
+
+
+
+
 			</div><!--Ends Projects Row-->
 
 			<div class="row pricingRow row-eq-height text-center"><!--Pricing Row-->

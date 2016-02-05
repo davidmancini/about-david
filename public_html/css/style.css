@@ -66,12 +66,10 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.projectsImage {
-
-}
-
-.projectsText {
-
+.project {
+	border: 5px solid black;
+	padding: 10px;
+	margin: 10px;
 }
 
 /* PRICING */
