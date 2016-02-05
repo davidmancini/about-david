@@ -21,12 +21,6 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 }
 
-/*.row-eq-height {*/
-	/*display: -webkit-box;*/
-	/*display: -webkit-flex;*/
-	/*display: -ms-flexbox;*/
-	/*display: flex;*/
-/*}*/
 
 /* HEADER */
 .headerRow {
@@ -67,9 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project {
-	border: 5px solid black;
-	padding: 10px;
-	margin: 10px;
+
 }
 
 /* PRICING */
