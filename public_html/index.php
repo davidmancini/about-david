@@ -76,7 +76,7 @@
 
 		<div class="container contentContainer"><!--Content container-->
 
-			<div class="row introRow row-eq-height"><!--Photo & Intro-->
+			<div class="row introRow"><!--Photo & Intro-->
 				<div class="col-md-5">
 					<img src="images/headshot.jpg" alt="David Mancini" class="img-responsive">
 				</div>
@@ -89,7 +89,7 @@
 			</div><!--Ends Photo & Intro-->
 
 
-			<div class="row skillsRow row-eq-height text-center"><!--Skills Row-->
+			<div class="row skillsRow text-center"><!--Skills Row-->
 				<h2>Skills</h2>
 				<img src="images/skills-logos.png" alt="System Logos" class="img-responsive center-image">
 				<p>I create fully responsive, mobile-friendly websites using the latest and most up-to-date technology,<br> including HTML5, CSS3, AngularJS, Bootstrap, MySQL, PHP7, and Wordpress.</p>

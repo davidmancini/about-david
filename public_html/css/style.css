@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* INTRO & BIO */
 .introRow {
-
+	background-color: lightsteelblue;
 }
 
 /* SKILLS */
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* PROJECT */
 .projectsRow {
-
+	background-color: lightsteelblue;
 }
 
 .project {
@@ -121,6 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 /* QUOTE */
 .quoteRow {
 	/*background-image: url("../images/bg-code.jpg");*/
+	background-color: lightsteelblue;
 }
 
 .quoteRow > body html h2 form {
