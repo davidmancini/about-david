@@ -78,7 +78,7 @@
 
 			<div class="row introRow"><!--Photo & Intro-->
 				<div class="col-md-5">
-					<img src="images/headshot.jpg" alt="David Mancini" class="img-responsive">
+					<img src="images/headshot.jpg" alt="David Mancini" class="img-responsive headshot">
 				</div>
 				<div class="col-md-7">
 					<h2>Hello,</h2>
