@@ -14,46 +14,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>David Mancini</title>
-		<!-- BOOTSTRAP TAGS -->
-			<!-- Tells IE to use highest mode available, avoiding IE compatibility Mode bugs. -->
-			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-			<!-- Sets viewport and zoom scale to 1:1.  This is required when creating a responsive site. -->
-			<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-			<!-- Bootstrap Latest compiled and minified CSS -->
-			<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
-
-			<!-- Optional theme -->
-			<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous" />
-
-			<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
-			<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-			<!--[if lt IE 9]>
-			<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-			<![endif]-->
-
-			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
-			<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
-			<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-			<script>window.onkeypress = function(event) {if (event.keyCode === 169) {alert('This site was developed by David Mancini.');}};</script>
-
-		<!-- END BOOTSTRAP TAGS-->
-
-		<!--Font Awesome-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-		<!--Google Fonts-->
-		<link href='https://fonts.googleapis.com/css?family=Rock+Salt|Didact+Gothic|Raleway' rel='stylesheet' type='text/css'>
-
-		<!--Font Awesome-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-		<!--Custom Stylesheet-->
-		<link rel="stylesheet" href="css/style.css">
+		<?php require_once ("include-headtags.php"); ?>
 	</head>
 
 	<body>
@@ -238,27 +199,8 @@
 
 		</div><!--Ends content container-->
 
-		<footer>
-			<div class="container-fluid"><!--Footer container-->
-				<div class="row footerRow"><!--Footer row-->
-					<div class="col-md-4">
+		<?php require_once("include-footer.php")?>
 
-					</div>
-					<div class="col-md-4 text-center">
-						<img src="images/dm-logo.png" class="center-block" alt="David Mancini's Logo"><br>
-						<p class="transparent">
-							Copyright © 2016<br>
-							This site was created (by hand) by David Mancini<br>
-						</p>
-					</div>
-					<div class="col-md-4 text-right">
-						<a href="https://twitter.com/vizavord" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
-						<a href="https://www.linkedin.com/in/david-mancini-b4854776"><i class="fa fa-linkedin fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
-						<a href="https://github.com/davidmancini"><i class="fa fa-github fa-lg"></i></a>
-					</div>
-				</div><!--Ends footer row-->
-			</div><!--Ends footer container-->
-		</footer>
 
 	</body>
 </html>
