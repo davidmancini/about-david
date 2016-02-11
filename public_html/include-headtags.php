@@ -27,6 +27,9 @@
 
 <!-- END BOOTSTRAP TAGS-->
 
+<!-- Angular -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+
 <!--Google Fonts-->
 <link href='https://fonts.googleapis.com/css?family=Rock+Salt|Didact+Gothic|Raleway' rel='stylesheet' type='text/css'>
 
