@@ -154,32 +154,43 @@
 			<div class="row quoteRow row-eq-height"><!--Quote Row-->
 				<div class="col-md-8">
 					<a name="quote"></a><h2 class="text-center"><span class="textBackgroundBlack">Get a Custom Quote</span></h2>
-					<form>
-						<div class="form-group">
+					<form name="quoteForm" id="quoteForm" ng-scope ng-invalid ng-invalid-required ng-valid-minlength ng-valid-maxlength ng-valid-min ng-valid-max>
+
+						<div class="form-group" ng-class="{ 'has-error': quoteForm.name.$touched && quoteForm.name.$invalid }">
 							<label for="name" class="textBackgroundBlack">Name</label>
-							<input type="text" class="form-control" id="name" placeholder="Name">
+							<div class="input-group-addon">
+								<input type="text" class="form-control ng-untouched ng-invalid ng-invalid-required" id="name" name="name" ng-model="quoteForm.name" ng-required="true" required="required" placeholder="Name">
+							</div>
 						</div>
+
 						<div class="form-group">
 							<label for="email" class="textBackgroundBlack">Email</label>
 							<input type="email" class="form-control" id="email" placeholder="Email">
 						</div>
+
 						<div class="form-group">
 							<label for="phone" class="textBackgroundBlack">Phone</label>
 							<input type="tel" class="form-control" id="phone" placeholder="Phone">
 						</div>
+
 						<div class="form-group">
 							<label for="website" class="textBackgroundBlack">Current Website</label>
 							<input type="text" class="form-control" id="website" placeholder="Current Website">
 						</div>
+
 						<div class="form-group">
 							<label for="text" class="textBackgroundBlack">How Can I Help You?</label>
 							<textarea class="form-control" id="text" placeholder="I need a website and a web app built." rows="3"></textarea>
 						</div>
 						<button type="submit" class="btn btn-primary">Send</button><br><br>
+
 					</form>
 				</div>
 				<div class="col-md-4" id="twitter">
 					<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/Vizavord" data-widget-id="695297296930512896">Tweets by @Vizavord</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+				<div class="alert alert-danger" role="alert" ng-messages="quoteForm.name.$error" ng-if="quoteForm.name.$touched" ng-hide="quoteForm.name.$valid">
+					<p ng-message="required">Please enter your full name</p>
 				</div>
 			</div><!--Ends Quotes Row-->
 
