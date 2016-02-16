@@ -206,6 +206,11 @@
 							</div>
 						</div>
 						<button type="submit" class="btn btn-primary">Send</button><br><br>
+						<button type="reset" class="btn btn-warning" ng-click="reset();">Reset</button>
+<!--						<p ng-show="quoteForm.$valid">Valid</p>-->
+<!--						<p ng-hide="quoteForm.$valid">Invalid</p>-->
+<!--						<pre>{{formData | json}}</pre>-->
+<!--						<uib-alert ng-repeat="alert in alerts" type="{{alert.type}}" close="alerts.length = 0;">{{alert.msg}}</uib-alert>-->
 
 					</form>
 				</div>
