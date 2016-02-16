@@ -19,7 +19,7 @@
 <![endif]-->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>-->
 
 <!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -28,13 +28,16 @@
 <!-- END BOOTSTRAP TAGS-->
 
 <!-- Angular -->
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-messages.js"></script>
+<script src="angular/app.js"></script>
+<script src="angular/controller.js"></script>
 
 <!--Google Fonts-->
-<link href='https://fonts.googleapis.com/css?family=Rock+Salt|Didact+Gothic|Raleway' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Rock+Salt|Didact+Gothic|Raleway' rel='stylesheet' type='text/css'>
 
 <!--Font Awesome-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <!--Custom Stylesheet-->
 <link rel="stylesheet" href="css/style.css">

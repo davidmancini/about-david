@@ -10,7 +10,7 @@
 
 		Contact me: hello@davidmancini.xyz  Thanks!-->
 
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" ng-app="Site">
 	<head>
 		<meta charset="UTF-8">
 		<title>David Mancini</title>
@@ -156,7 +156,7 @@
 					<a name="quote"></a><h2 class="text-center"><span class="textBackgroundBlack">Get a Custom Quote</span></h2>
 					<form name="quoteForm" id="quoteForm" class="form-horizontal well" ng-controller="AngularFormController" ng-submit="submit(formData, quoteForm.$valid);" novalidate>
 
-						<div class="form-group" ng-class=" { 'has-error':quoteForm.name.$touched && quoteForm.name.$invalid }; ">
+						<div class="form-group" ng-class=" { 'has-error':quoteForm.name.$touched && quoteForm.name.$invalid } ">
 							<label for="name" class="textBackgroundBlack">Name</label>
 							<div class="input-group">
 								<input type="text" class="form-control" id="name" name="name" placeholder="Name" ng-model="formData.name" ng-minlength="2" ng-maxlength="32" ng-required="true">
