@@ -154,13 +154,11 @@
 			<div class="row quoteRow row-eq-height"><!--Quote Row-->
 				<div class="col-md-8">
 					<a name="quote"></a><h2 class="text-center"><span class="textBackgroundBlack">Get a Custom Quote</span></h2>
-					<form name="quoteForm" id="quoteForm" class="form-horizontal well" ng-controller="AngularFormController" ng-submit="submit(formData, quoteForm.$valid);" novalidate>
+					<form name="quoteForm" id="quoteForm" ng-controller="AngularFormController" ng-submit="submit(formData, quoteForm.$valid);" novalidate>
 
 						<div class="form-group" ng-class=" { 'has-error':quoteForm.name.$touched && quoteForm.name.$invalid } ">
 							<label for="name" class="textBackgroundBlack">Name</label>
-							<div class="input-group">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Name" ng-model="formData.name" ng-minlength="2" ng-maxlength="32" ng-required="true">
-							</div>
+							<input type="text" class="form-control" id="name" name="name" placeholder="Name" ng-model="formData.name" ng-minlength="2" ng-maxlength="32" ng-required="true">
 							<div class="alert alert-danger" role="alert" ng-messages="quoteForm.name.$error" ng-if="quoteForm.name.$touched" ng-hide="quoteForm.name.$valid">
 								<p ng-message="minlength">Name is too short</p>
 								<p ng-message="maxlength">Name is too long</p>
@@ -170,9 +168,7 @@
 
 						<div class="form-group" ng-class=" { 'has-error':quoteForm.email.$touched && quoteForm.email.$invalid }">
 							<label for="email" class="textBackgroundBlack">Email</label>
-							<div class="input-group">
-								<input type="email" class="form-control" name="email" id="email" placeholder="Email" ng-model="formData.email" ng-minlength="6" ng-maxlength="200" required="true">
-							</div>
+							<input type="email" class="form-control" name="email" id="email" placeholder="Email" ng-model="formData.email" ng-minlength="6" ng-maxlength="200" required="true">
 							<div class="alert alert-danger" role="alert" ng-messages="quoteForm.email.$error" ng-if="quoteForm.email.$touched" ng-hide="quoteForm.email.$valid">
 								<p ng-message="minlength">Email is too short</p>
 								<p ng-message="maxlength">Email is too long</p>
@@ -182,10 +178,8 @@
 						</div>
 
 						<div class="form-group" ng-class=" { 'has-error':quoteForm.phone.$touched && quoteForm.phone.$invalid } ">
-							<label for="phone" class="textBackgroundBlack">Name</label>
-							<div class="input-group">
-								<input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number" ng-model="formData.phone" ng-minlength="10" ng-maxlength="32" ng-required="true">
-							</div>
+							<label for="phone" class="textBackgroundBlack">Phone Number</label>
+							<input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number" ng-model="formData.phone" ng-minlength="10" ng-maxlength="32" ng-required="true">
 							<div class="alert alert-danger" role="alert" ng-messages="quoteForm.phone.$error" ng-if="quoteForm.phone.$touched" ng-hide="quoteForm.phone.$valid">
 								<p ng-message="minlength">Phone number is too short; remember to include your area code</p>
 								<p ng-message="maxlength">Phone number is too long</p>
@@ -195,9 +189,7 @@
 
 						<div class="form-group" ng-class="{ 'has-error':quoteForm.website.$touched && quoteForm.website.$invalid }">
 							<label for="website" class="textBackgroundBlack">Current Website</label>
-							<div class="input-group">
-								<input type="text" class="form-control" name="website" id="website" placeholder="Current Website" ng-model="formData.website" ng-minlength="5" ng-maxlength="50">
-							</div>
+							<input type="text" class="form-control" name="website" id="website" placeholder="Current Website" ng-model="formData.website" ng-minlength="5" ng-maxlength="50">
 							<div class="alert alert-danger" role="alert" ng-messages="quoteForm.website.$error" ng-if="quoteForm.website.$touched" ng-hide="quoteForm.website.$valid">
 								<p ng-message="minlength">Website is too short</p>
 								<p ng-message="maxlength">Website is too long</p>
@@ -206,9 +198,7 @@
 
 						<div class="form-group" ng-class="{ 'has-error':quoteForm.comment.$touched && quoteForm.comment.$invalid }">
 							<label for="comment" class="textBackgroundBlack">How Can I Help You?</label>
-							<div class="input-group">
-								<textarea class="form-control" name="comment" id="comment" placeholder="I need a website and a web app built." rows="3" ng-minlength="10" ng-maxlength="500" ng-required="true"></textarea>
-							</div>
+							<textarea class="form-control" name="comment" id="comment" placeholder="I need a website and a web app built." rows="3" ng-minlength="10" ng-maxlength="500" ng-required="true"></textarea>
 							<div class="alert alert-danger" role="alert" ng-messages="quoteForm.comment.$error" ng-if="quoteForm.comment.$touched" ng-hide="quoteForm.comment.$valid">
 								<p ng-message="minlength">Message is too short; try to be a bit more specific</p>
 								<p ng-message="maxlength">Message is too long</p>
