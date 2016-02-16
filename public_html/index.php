@@ -198,7 +198,7 @@
 
 						<div class="form-group" ng-class="{ 'has-error':quoteForm.comment.$touched && quoteForm.comment.$invalid }">
 							<label for="comment" class="textBackgroundBlack">How Can I Help You?</label>
-							<textarea class="form-control" name="comment" id="comment" placeholder="I need a website and a web app built." rows="3" ng-minlength="10" ng-maxlength="500" ng-required="true"></textarea>
+							<textarea class="form-control" name="comment" id="comment" placeholder="I need a website and a web app built." rows="3" ng-model="formData.comment" ng-minlength="10" ng-maxlength="500" ng-required="true"></textarea>
 							<div class="alert alert-danger" role="alert" ng-messages="quoteForm.comment.$error" ng-if="quoteForm.comment.$touched" ng-hide="quoteForm.comment.$valid">
 								<p ng-message="minlength">Message is too short; try to be a bit more specific</p>
 								<p ng-message="maxlength">Message is too long</p>
