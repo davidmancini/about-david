@@ -27,7 +27,7 @@
 <!--					Form that emails demographics, order details, and checkout with Stripe.-->
 <!--					Demographics: Name, Email Address, Phone Number-->
 <!--					Order Details: Which package, Site/Business/Organization Name, Required Features, Current site URL?, Timeline/Dealine, What do you want your site to do?  Comments?-->
-<!--					Credit Card info: CC number, CVC, Exp. (https://stripe.com/docs/tutorials/forms)-->
+<!--					Credit Card info: CC number, CVC, Exp. (https://stripe.com/docs/tutorials/forms) -->
 				</div>
 			</div>
 

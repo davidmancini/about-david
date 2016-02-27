@@ -1,6 +1,6 @@
 app.controller("AngularFormController", ["$scope", function($scope) {
 	/**
-	 * State variable to store alerts generated from submit evenet
+	 * State variable to store alerts generated from submit event
 	 * @type {Array}
 	 **/
 	$scope.alerts = [];
