@@ -36,3 +36,14 @@ Your Milestone 2&alpha; passes at [Tier IV](https://bootcamp-coders.cnm.edu/proj
 
 #### Edits &amp; Suggestions
 - Since you're wanting a portfolio with images, I'd recommend taking a look at [Swipebox](http://brutaldesign.github.io/swipebox/).
+
+### Milestone 2b Feedback
+Awesome job. You're ready to deploy to ASO. See steps below.
+Your Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
+
+#### Edits &amp; Suggestions
+1. ASO tasks: enable shell access - contact ASO live chat support
+2. Add your SSH key(s)
+3. Add an email, and a email forwarder if you like :)
+4. Redirect Document Root to /public_html - see Subdomains menu in CPanel
+5. Create a new deployment in PhpStorm that uploads to ASO, and upload your site there.
