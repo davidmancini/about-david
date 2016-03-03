@@ -9,13 +9,13 @@ app.controller("AngularFormController", ["$scope", function($scope) {
 	 * State variable that keeps track of data entered
 	 * @type {Object}
 	 **/
-	$scope.formData = {name:null, email:null, phone: null, website:null, comment:null};
+	$scope.formData = {product:null, name:null, email:null, phone: null, website:null, comment:null};
 
 	/**
 	 * Method to reset form data when submit and cancel buttons are pressed
 	 **/
 	$scope.reset = function() {
-		$scope.formData = {name:null, email:null, phone: null, website:null, comment:null};
+		$scope.formData = {product:null, name:null, email:null, phone: null, website:null, comment:null};
 		$scope.quoteForm.$setUntouched();
 		$scope.quoteForm.$setPristine();
 	};

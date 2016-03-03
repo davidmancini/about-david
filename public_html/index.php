@@ -238,12 +238,12 @@
 								<p ng-message="required">Message is required</p>
 							</div>
 						</div>
-						<button type="submit" class="btn btn-primary">Send</button>
-						<button type="reset" class="btn btn-warning" ng-click="reset();">Reset</button>
+						<button type="submit" name="submit" id="submit" class="btn btn-primary">Send</button>
+						<button type="reset" name="reset" id="reset" class="btn btn-warning" ng-click="reset();">Reset</button>
 <!--						<p ng-show="quoteForm.$valid">Valid</p>-->
 <!--						<p ng-hide="quoteForm.$valid">Invalid</p>-->
 <!--						<pre>{{formData | json}}</pre>-->
-<!--						<uib-alert ng-repeat="alert in alerts" type="{{alert.type}}" close="alerts.length = 0;">{{alert.msg}}</uib-alert>-->
+						<p><uib-alert ng-repeat="alert in alerts" type="{{alert.type}}" close="alerts.length = 0;">{{alert.msg}}</uib-alert></p>
 
 					</form>
 				</div>
