@@ -7,6 +7,9 @@
 require_once(dirname(dirname(dirname(dirname(__DIR__)))) . "/vendor/autoload.php");
 
 //Input Sanitization
+$product = $_POST["product"];
+$product = filter_var($product, FILTER_SANITIZE_STRING);
+
 $name = $_POST["name"];
 $name = filter_var($name, FILTER_SANITIZE_STRING);
 
