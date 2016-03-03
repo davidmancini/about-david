@@ -142,6 +142,7 @@
 					<i class="fa fa-plus"></i> Shopping Cart<br>
 				</div>
 				<div class="col-xs-6">
+					<i class="fa fa-plus"></i> Security Certificates (HTTPS)<br>
 					<i class="fa fa-plus"></i> Accept Credit Cards<br>
 					<i class="fa fa-plus"></i> Event Registration<br>
 					<i class="fa fa-plus"></i> Customer Surveys<br>
