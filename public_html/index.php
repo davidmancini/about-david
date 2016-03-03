@@ -132,7 +132,7 @@
 			</div><!--Ends Pricing Row-->
 
 			<div class="row pricingFeaturesRow row-eq-height"><!--Pricing Features Row-->
-				<h3 class="text-center">Sample Add-On Features</h3>
+				<h3 class="text-center">Some Add-On Features To Consider</h3>
 				<div class="col-xs-6 text-right">
 					<i class="fa fa-plus"></i> Logo Design<br>
 					<i class="fa fa-plus"></i> Photo Slideshow<br>
