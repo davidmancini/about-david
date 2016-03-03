@@ -30,7 +30,7 @@
 				<div class="col-md-7">
 					<h2>Hello,</h2>
 					<p>I'm David Mancini, and I am a nerd.  I've always been into computers--I began making my own websites when I was 13 years old.  On my own, and through some intense coursework, I've gained the skills and experience necessary to help you create a great-looking website or a powerful web app.</p>
-					<p>Just so you think I'm not the <em>bad</em> kind of nerd, you should know that I gained a lot of non-tech experience throughout the years, too; I'm a Paramedic and a Registered Nurse.</p>
+					<p>I'm a proud nerd, but I'm no dweeb; you should know that I gained a lot of non-tech experience throughout the years, too: I'm a Paramedic and a Registered Nurse.</p>
 					<p>I live and work in San Antonio, TX, but I work with anyone worldwide.</p>
 				</div>
 			</div><!--Ends Photo & Intro-->
