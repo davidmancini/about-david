@@ -126,6 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 .quoteRow {
 	/*background-image: url("../images/bg-code.jpg");*/
 	background-color: lightsteelblue;
+	padding-bottom: 10px;
 }
 
 .quoteRow > body html h2 form {
