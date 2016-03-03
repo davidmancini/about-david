@@ -6,38 +6,26 @@
  **/
 require_once(dirname(dirname(dirname(dirname(__DIR__)))) . "/vendor/autoload.php");
 
-//Input Sanitization
-$product = $_POST["product"];
-$product = filter_var($product, FILTER_SANITIZE_STRING);
-
-$name = $_POST["name"];
-$name = filter_var($name, FILTER_SANITIZE_STRING);
-
-$email = $_POST["email"];
-$email = filter_var($email, FILTER_SANITIZE_STRING);
-$email = filter_var($email, FILTER_VALIDATE_EMAIL);
-if($email === false) {
-	throw(new RuntimeException("Email address is invalid"));
-}
-
-$phone = $_POST["phone"];
-$phone = filter_var($phone, FILTER_SANITIZE_STRING);
-
-$website = $_POST["website"];
-$website = filter_var($website, FILTER_SANITIZE_STRING);
-
-$comment = $_POST["comment"];
-$comment = filter_var($comment, FILTER_SANITIZE_STRING);
-
-
-
-
 try {
+	// sanitize the inputs from the form: name, email, subject, and message
+
+	// this assumes jQuery (not Angular will be submitting the form, so we're using the $_POST superglobal
+
+	$product = filter_input(INPUT_POST, "product", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
+	$phone = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$website = filter_input(INPUT_POST, "website", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$comment = filter_input(INPUT_POST, "comment", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+
 	// create Swift message
+
 	$swiftMessage = Swift_Message::newInstance();
 
 	// attach the sender to the message
+
 	// this takes the form of an associative array where the Email is the key for the real name
+
 	$swiftMessage->setFrom([$email => $name]);
 
 	/**
@@ -45,10 +33,11 @@ try {
 	 * notice this an array that can include or omit the the recipient's real name
 	 * use the recipients' real name where possible; this reduces the probability of the Email being marked as spam
 	 **/
-	$recipients = ["mancini.david@gmail.com"];
+	$recipients = ["mancini.david@gmail.com" => "David Mancini"];
 	$swiftMessage->setTo($recipients);
 
 	// attach the subject line to the message
+
 	$swiftMessage->setSubject("{MadeByMancini: Comment Form}");
 
 	/**
@@ -58,14 +47,8 @@ try {
 	 * notice one tactic used is to display the entire $confirmLink to plain text; this lets users
 	 * who aren't viewing HTML content in Emails still access your links
 	 **/
-	$confirmLink = "https://" . $_SERVER["SERVER_NAME"] . "/important-link/confirm.php?confirmationCode=abc123";
-	$message = <<< EOF
-<h1>This is an Important Message</h1>
-<p>This is a very important message. Please read it carefully.</p>
-<p>To certify you've read it carefully and understand its contents, please visit: <a href="$confirmLink">$confirmLink</a></p>
-EOF;
 	$swiftMessage->setBody($message, "text/html");
-	$swiftMessage->addPart(html_entity_decode(filter_var($message, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES)), "text/plain");
+	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
 
 	/**
 	 * send the Email via SMTP; the SMTP server here is configured to relay everything upstream via CNM
@@ -83,10 +66,12 @@ EOF;
 	 **/
 	if($numSent !== count($recipients)) {
 		// the $failedRecipients parameter passed in the send() method now contains contains an array of the Emails that failed
+
 		throw(new RuntimeException("unable to send email"));
 	}
 
 	// report a successful send
+
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 } catch(Exception $exception) {
 	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
