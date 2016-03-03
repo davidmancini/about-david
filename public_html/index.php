@@ -90,7 +90,7 @@
 							<tr><td><i class="fa fa-times"></i> Premium Wordpress Theme</td></tr>
 							<tr><td><i class="fa fa-times"></i> Search Engine Optimization Marketing</td></tr>
 						</table>
-						<div class="text-center"><a class="btn btn-primary" id="priceBoxButtonBasic" href="#" role="button">Get Started!</a></div><br>
+						<div class="text-center"><a class="btn btn-primary" id="priceBoxButtonBasic" href="#quote" role="button">Get Started!</a></div><br>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -108,7 +108,7 @@
 							<tr><td><i class="fa fa-check"></i> Premium Wordpress Theme</td></tr>
 							<tr><td><i class="fa fa-times"></i> Search Engine Optimization Marketing</td></tr>
 						</table>
-						<div class="text-center"><a class="btn btn-primary" id="priceBoxButtonPopular" href="#" role="button">Get Started!</a></div><br>
+						<div class="text-center"><a class="btn btn-primary" id="priceBoxButtonPopular" href="#quote" role="button">Get Started!</a></div><br>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -126,7 +126,7 @@
 							<tr><td><i class="fa fa-check"></i> Premium Wordpress Theme</td></tr>
 							<tr><td><i class="fa fa-check"></i> Search Engine Optimization Marketing</td></tr>
 						</table>
-						<div class="text-center"><a class="btn btn-primary text-center" id="priceBoxButtonPremium" href="#" role="button">Get Started!</a></div><br>
+						<div class="text-center"><a class="btn btn-primary text-center" id="priceBoxButtonPremium" href="#quote" role="button">Get Started!</a></div><br>
 					</div>
 				</div>
 			</div><!--Ends Pricing Row-->
@@ -153,8 +153,41 @@
 
 			<div class="row quoteRow row-eq-height"><!--Quote Row-->
 				<div class="col-md-8">
-					<a name="quote"></a><h2 class="text-center"><span class="textBackgroundBlack">Get a Custom Quote</span></h2>
+					<a name="quote"></a><h2 class="text-center"><span class="textBackgroundBlack">Get Started</span></h2>
 					<form name="quoteForm" id="quoteForm" ng-controller="AngularFormController" ng-submit="submit(formData, quoteForm.$valid);" novalidate>
+
+						<div class="form-group" ng-class="{ 'has-error':quoteForm.product.$touched && quoteForm.product.$invalid }">
+							<label>Product: </label>
+							<div class="radio-inline">
+								<label>
+									<input type="radio" name="product" id="productBasic" value="basic" ng-model="formData.product" ng-required="true">
+									Basic
+								</label>
+							</div>
+							<div class="radio-inline">
+								<label>
+									<input type="radio" name="product" id="productPopular" value="popular" ng-model="formData.product" ng-required="true">
+									Popular
+								</label>
+							</div>
+							<div class="radio-inline">
+								<label>
+									<input type="radio" name="product" id="productPremium" value="premium" ng-model="formData.product" ng-required="true">
+									Premium
+								</label>
+							</div>
+							<div class="radio-inline">
+								<label>
+									<input type="radio" name="product" id="productCustom" value="custom" ng-model="formData.product" ng-required="true">
+									Custom
+								</label>
+							</div>
+							<div class="alert alert-danger" role="alert" ng-messages="quoteForm.product.$error" ng-if="quoteForm.product.$touched" ng-hide="quoteForm.product.$valid">
+								<p ng-message="required">Product is required</p>
+							</div>
+						</div>
+
+
 
 						<div class="form-group" ng-class=" { 'has-error':quoteForm.name.$touched && quoteForm.name.$invalid } ">
 							<label for="name" class="textBackgroundBlack">Name</label>
