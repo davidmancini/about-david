@@ -155,7 +155,7 @@
 			<div class="row quoteRow row-eq-height"><!--Quote Row-->
 				<div class="col-md-8">
 					<a name="quote"></a><h2 class="text-center"><span class="textBackgroundBlack">Get Started</span></h2>
-					<form action="lib/mailer.php" name="quoteForm" id="quoteForm" ng-controller="AngularFormController" ng-submit="submit(formData, quoteForm.$valid);" novalidate>
+					<form action="lib/mailer.php" method="post" name="quoteForm" id="quoteForm" ng-controller="AngularFormController" ng-submit="submit(formData, quoteForm.$valid);" novalidate>
 
 						<div class="form-group" ng-class="{ 'has-error':quoteForm.product.$touched && quoteForm.product.$invalid }">
 							<label>Product: </label>
