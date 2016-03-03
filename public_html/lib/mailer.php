@@ -4,7 +4,7 @@
  * while this is convenient, this may load too much if your composer configuration grows to many classes
  * if this is a concern, load "/vendor/swiftmailer/autoload.php" instead to load just SwiftMailer
  **/
-require_once(dirname(dirname(dirname(dirname(__DIR__)))) . "/vendor/autoload.php");
+require_once(dirname(dirname(__DIR__)) . "/vendor/autoload.php");
 
 try {
 	// sanitize the inputs from the form: name, email, subject, and message
@@ -47,6 +47,10 @@ try {
 	 * notice one tactic used is to display the entire $confirmLink to plain text; this lets users
 	 * who aren't viewing HTML content in Emails still access your links
 	 **/
+	$message = <<< EOF
+Name: $name<br>Email: $email<br>Phone: $phone<br>Current Site: $website<br><br>Product: $product<br>Message: $comment
+EOF;
+
 	$swiftMessage->setBody($message, "text/html");
 	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
 
@@ -74,5 +78,5 @@ try {
 
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 } catch(Exception $exception) {
-	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
+	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() ."</div>";
 }

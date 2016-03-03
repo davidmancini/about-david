@@ -31,6 +31,7 @@ app.controller("AngularFormController", ["$scope", function($scope) {
 			$scope.alerts[0] = {
 				type:"success",
 				msg: "You've submitted the form. It doesn't do anything yet, so.....just email me."
+
 			};
 		} else {
 			$scope.alerts[0] = {
