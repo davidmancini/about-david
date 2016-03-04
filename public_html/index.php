@@ -1,5 +1,22 @@
 <?php
-// set XSRF here
+/**
+ * sets an XSRF cookie, generating one if necessary
+ *
+ * @param string $cookiePath path the cookie is relevant to, blank by default
+ * @throws RuntimeException if the session is not active
+ **/
+require_once ("lib/xsrf.php");
+function setXsrfCookie($cookiePath = "/") {
+	// enforce that the session is active
+	if(session_status() !== PHP_SESSION_ACTIVE) {
+		throw(new RuntimeException("session not active"));
+	}
+	// if the token does not exist, create one and send it in a cookie
+	if(empty($_SESSION["XSRF-TOKEN"]) === true) {
+		$_SESSION["XSRF-TOKEN"] = hash("sha512", session_id() . bin2hex(openssl_random_pseudo_bytes(16)));
+	}
+	setcookie("XSRF-TOKEN", $_SESSION["XSRF-TOKEN"], 0, $cookiePath);
+}
 ?>
 <!DOCTYPE html>
 <!-- Hello, fellow nerd.  If you're here, I assume you wanted to
