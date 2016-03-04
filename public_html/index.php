@@ -5,18 +5,12 @@
  * @param string $cookiePath path the cookie is relevant to, blank by default
  * @throws RuntimeException if the session is not active
  **/
-require_once ("lib/xsrf.php");
-function setXsrfCookie($cookiePath = "/") {
-	// enforce that the session is active
-	if(session_status() !== PHP_SESSION_ACTIVE) {
-		throw(new RuntimeException("session not active"));
-	}
-	// if the token does not exist, create one and send it in a cookie
-	if(empty($_SESSION["XSRF-TOKEN"]) === true) {
-		$_SESSION["XSRF-TOKEN"] = hash("sha512", session_id() . bin2hex(openssl_random_pseudo_bytes(16)));
-	}
-	setcookie("XSRF-TOKEN", $_SESSION["XSRF-TOKEN"], 0, $cookiePath);
+if(session_status() !== PHP_SESSION_ACTIVE) {
+	session_start();
 }
+
+require_once ("lib/xsrf.php");
+setXsrfCookie();
 ?>
 <!DOCTYPE html>
 <!-- Hello, fellow nerd.  If you're here, I assume you wanted to
@@ -30,7 +24,7 @@ function setXsrfCookie($cookiePath = "/") {
 
 		Contact me: hello@davidmancini.xyz  Thanks!-->
 
-<html lang="en" xmlns="http://www.w3.org/1999/html" ng-app="Site">
+<html lang="en" ng-app="Site">
 	<head>
 		<meta charset="UTF-8">
 		<title>David Mancini</title>
