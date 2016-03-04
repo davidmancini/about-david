@@ -1,3 +1,6 @@
+<?php
+// set XSRF here
+?>
 <!DOCTYPE html>
 <!-- Hello, fellow nerd.  If you're here, I assume you wanted to
 		make sure I actually coded this by hand.  I assure you I did.

@@ -1,4 +1,4 @@
-app.controller("AngularFormController", ["$scope", function($scope) {
+app.controller("AngularFormController", ["$http", "$scope", function($http, $scope) {
 	/**
 	 * State variable to store alerts generated from submit event
 	 * @type {Array}
@@ -28,11 +28,16 @@ app.controller("AngularFormController", ["$scope", function($scope) {
 	 **/
 	$scope.submit = function(formData, validated) {
 		if(validated === true){
-			$scope.alerts[0] = {
-				type:"success",
-				msg: "You've submitted the form. It doesn't do anything yet, so.....just email me."
-
-			};
+			$http.post("lib/mailer.php", formData)
+				.then(function(reply) {
+					$scope.alerts[0] = {
+						type: "danger",
+						msg: reply.data.message
+					};
+					if(reply.data.status === 200) {
+						$scope.alerts[0].type = "success";
+					}
+				});
 		} else {
 			$scope.alerts[0] = {
 				type: "danger",

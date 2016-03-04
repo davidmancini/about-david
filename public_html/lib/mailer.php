@@ -6,17 +6,27 @@
  **/
 require_once(dirname(dirname(__DIR__)) . "/vendor/autoload.php");
 
+//prepare an emptry reply
+$reply = new stdClass();
+$reply->status = 200;
+
 try {
+	// verify XSRF here
+	if(session_status() !== PHP_SESSION_ACTIVE) {
+		session_start();
+	}
+
 	// sanitize the inputs from the form: name, email, subject, and message
-
 	// this assumes jQuery (not Angular will be submitting the form, so we're using the $_POST superglobal
+	$requestContent = file_get_contents("php://input");
+	$requestObject = json_decode($requestContent);
 
-	$product = filter_input(INPUT_POST, "product", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
-	$phone = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$website = filter_input(INPUT_POST, "website", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$comment = filter_input(INPUT_POST, "comment", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$product = filter_var($requestObject->product, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$name = filter_var($requestObject->name, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$email = filter_var($requestObject->email, FILTER_SANITIZE_EMAIL);
+	$phone = filter_var($requestObject->phone, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$website = filter_var($requestObject->website, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$comment = filter_var($requestObject->comment, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	// create Swift message
 
@@ -75,8 +85,11 @@ EOF;
 	}
 
 	// report a successful send
-
-	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
+	$reply->message = "Non emptry email sent.";
 } catch(Exception $exception) {
-	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() ."</div>";
+	$reply->message = $exception->getMessage();
+	$reply->status = 500;
 }
+
+header("Content-type: application/json");
+echo json_encode($reply);
