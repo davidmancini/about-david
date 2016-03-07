@@ -14,8 +14,8 @@
 			<div class="col-md-4 text-right">
 				<a href="https://twitter.com/vizavord" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
 				<a href="https://www.linkedin.com/in/david-mancini-b4854776"><i class="fa fa-linkedin fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
-				<a href="https://github.com/davidmancini"><i class="fa fa-github fa-lg"></i></a>
-			</div>
+				<a href="https://github.com/davidmancini"><i class="fa fa-github fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+				<a href="skype:live:mancini.david_1?chat"><i class="fa fa-skype"></i></a>
 		</div><!--Ends footer row-->
 	</div><!--Ends footer container-->
 </footer>
