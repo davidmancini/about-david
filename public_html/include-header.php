@@ -11,5 +11,18 @@
 			<a class="btn pull-right btn-primary" href="#quote" role="button">Get a Quote</a>
 			<a class="btn pull-right btn-primary" href="#pricing" role="button">Pricing</a>
 		</div>
+		<div class="pull-right">
+			<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+			<div id="SkypeButton_Call_live:mancini.david_1_1">
+				<script type="text/javascript">
+					Skype.ui({
+						"name": "chat",
+						"element": "SkypeButton_Call_live:mancini.david_1_1",
+						"participants": ["live:mancini.david_1"],
+						"imageSize": 24
+					});
+				</script>
+			</div>
+		</div>
 	</div><!--Ends Header-->
 </div><!--Ends header container-->
