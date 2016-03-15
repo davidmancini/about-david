@@ -85,7 +85,7 @@ EOF;
 	}
 
 	// report a successful send
-	$reply->message = "Non emptry email sent.";
+	$reply->message = "Your message has been sent. We will get back with you shortly.";
 } catch(Exception $exception) {
 	$reply->message = $exception->getMessage();
 	$reply->status = 500;
